@@ -1,0 +1,120 @@
+.main{
+	max-width:1920px;
+	margin:auto;
+	background-color: rgb(166, 166, 166);
+}
+.header{
+	
+	display:block;
+	
+}
+
+.slid1{
+	
+	background-image: url(images/patriarhiya-1200x504.jpg);
+	background-size:cover;
+	
+	width:100%;
+}
+.slid2{
+
+	background-image: url(images/RIAN_3180422.HR_.ru_1.jpg);
+	background-size:cover;
+	
+	width:100%;
+	
+}
+.slid3{
+
+	background-image: url(images/завантаження.jpg);
+	background-size:cover;
+	
+	width:100%;
+}
+
+.header_text{
+	
+	background-color: rgba(166, 166, 166, 0.5);
+	width:100%;
+	max-width:1920px;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	position:absolute;
+}
+.header_text_block{
+	width:80%;
+	text-align:left;
+
+}
+button{
+		font-size:20px;
+		padding:10px;
+		margin-right:20px;
+		border:1px solid white;
+		background-color: rgba(166, 166, 166, 0.0);
+		border-radius: 20px;
+		color:white
+}
+button:hover{
+	border:1px solid red;
+	background-color:red
+}
+.header_text_block>h1{
+	font-size:60px;
+}
+.header_text_block>h4{
+	font-size:20px;
+}
+
+.main_body_colum{
+	text-align:center;
+	width:80%;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	margin:auto
+}
+.main_body_item_row{
+	text-align:left;
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.main_body_item_img{
+	width:20%
+}
+.main_body_item_img>img{
+	width:100%;
+	height:400px
+}
+.main_body_item_text{
+	width:60%
+}
+.main_body_item_row>button{
+	margin-top:30px;
+	width:20%;
+	height:50px
+}
+.main_body_row{
+	display:flex
+}
+.main_body_row>.main_body_item{
+	width:25%;
+	text-align:center;
+}
+.footer{
+	margin-top:20px;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+
+}
+.footer>.main_body_item{
+	width:20%;
+	margin-right:10px
+}
+.footer>.main_body_item>.main_body_item_img{
+	width:100%
+}
